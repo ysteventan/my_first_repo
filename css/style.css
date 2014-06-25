@@ -1,0 +1,35 @@
+/* 
+	Theme Name: Yohanes Steven Template
+	Author: Yohanes Steven
+	Theme URI: http://www.ysteven.com
+
+	COLOR SCHEME
+	-----------------------
+	BLACK 		#000
+	DARK GREY	#444
+	LIGHT GREY	#AAA
+	WHITE		#FFF
+
+*/
+
+/* BODY */
+* 		{ margin:0; padding:0; }
+body 	{ background:#FFF; font-family:"Open Sans", Arial, Helvetica; font-size:0.9em; color:#EEE; }
+
+/* HEADER */
+header 	{ height:80px; width:100%; position:fixed; z-index:2; background:#FFF; }
+#logo 	{ width:20%; margin-left:10%; }
+#logo img	{ max-height:100%; }
+#fake_header	{ width:100%; height:80px; }
+
+/* FOOTER */
+footer 	{ height:50px; width:100%; text-align:center; color:#444; line-height:50px; position:fixed; z-index:2; background:#FFF; bottom:0; }
+
+/* BACKGROUND */
+#background	{ position:fixed; z-index:-1; min-width:100% !important;  }
+
+/* HOMEPAGE */
+#homepage	{ width:56%; margin-left:40%; padding-bottom:100px; }
+
+/* TEXTS */
+p	{ margin:0 0 20px 0; line-height:1.4em; }
